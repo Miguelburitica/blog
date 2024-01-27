@@ -13,12 +13,27 @@
     --color-border: 236, 233, 233;
   }
   html[data-theme="dark"] {
-    --color-fill: 33, 39, 55;
-    --color-text-base: 234, 237, 243;
-    --color-accent: 255, 107, 1;
+    /* --color-fill: 33, 39, 55; */
+
+    /* 4E5478 */
+    --color-fill: 58, 64, 100;
+    /* 565D79 */
+    /* --color-fill: 86, 93, 121; */
+    
+    /* --color-text-base: 234, 237, 243; */
+    /* FCE9B1 */
+    /* --color-text-base: 252, 233, 177; */
+    /* F4DDC1 */
+    --color-text-base: 245, 235, 211;
+
+
+    /* --color-accent: 255, 107, 1; */
+    /* C78585 */
+    --color-accent: 254, 147, 254;
+
     --color-card: 52, 63, 96;
     --color-card-muted: 138, 51, 2;
-    --color-border: 171, 75, 8;
+    --color-border: 217, 177, 220;
   }
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
