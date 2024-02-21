@@ -2,7 +2,7 @@
 title: How can I feel be owned to somewhere/someone
 author: Miguel Buriticá
 pubDatetime: 2024-02-21T19:26:59.982Z
-slug: feeling-mad-at-me
+slug: how-to-feel-owned
 featured: true
 draft: false
 tags:
