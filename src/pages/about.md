@@ -1,36 +1,34 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "Sobre el proyecto"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Este proyecto está construido usando AstroPaper, este es una plantilla minimalista, responsiva y SEO-friendly, basada y construida a partir del [blog personal del creador](https://satnaing.dev/blog)
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Esta plantilla busca ser naturalmente accesible. Tema oscuro y claro son soportados por defecto y tiene esquemas de colores adicionales que pueden ser facilmente configurados.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+Esta plantilla está autodocumentada, lo que significa que los articulos que vienen por defecto en la plantilla original son la documentación del proyecto.
 
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-## Tech Stack
+## Tecnologías utilizadas
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+Este blog está escrito en Javascript vanilla (más typescript para verificación de tipos) y un poco de ReactJS para algunas interacciones. Tailwindcss se utiliza para el estilado; y Markdown es usado para escribir los articulos. 
 
-## Features
+## Caracteristicas
 
-Here are certain features of this site.
+Aquí algunas caracteristicas del sitio.
 
-- fully responsive and accessible
+- Completamente responsivo y accesible
 - SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+- Modo oscuro y claro
+- Rendimiento super rápido
+- Articulos en borrador
+- Paginación
+- Sitemap y rss feed
+- Super customizable
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+Si te gusta esta platilla, puedes contribuir o dar una estrella al [repo](https://github.com/satnaing/astro-paper).
+O puedes incluso dar feedback via [email](mailto:contact@satnaing.dev).
