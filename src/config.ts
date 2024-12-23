@@ -4,8 +4,8 @@ export const SITE: Site = {
   website: "https://mi-pensieve.deno.dev/",
   author: "Miguel Buriticá",
   profile: "https://satnaing.dev/",
-  desc: "Recopilación de aprendizajes como desarrollador front, recomendaciones de libros, cursos, temás de estudio y algo más.",
-  title: "Reviews",
+  desc: "Recopilación de aprendizajes como desarrollador front, recomendaciones de libros, cursos, temas de estudio y algo más.",
+  title: "TechReviews",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -14,7 +14,7 @@ export const SITE: Site = {
   showArchives: true,
   editPost: {
     url: "https://github.com/miguelburitica/blog/edit/main/src/content/blog",
-    text: "Suggest Changes",
+    text: "Sugerir cambios",
     appendFilePath: true,
   },
 };

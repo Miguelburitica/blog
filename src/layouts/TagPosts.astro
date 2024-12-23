@@ -18,12 +18,12 @@ export interface Props {
 const { page, tag, tagName } = Astro.props;
 ---
 
-<Layout title={`Tag: ${tagName} | ${SITE.title}`}>
+<Layout title={`Etiqueta: ${tagName} | ${SITE.title}`}>
   <Header activeNav="tags" />
   <Main
-    pageTitle={[`Tag:`, `${tagName}`]}
+    pageTitle={[`Etiqueta:`, `${tagName}`]}
     titleTransition={tag}
-    pageDesc={`All the articles with the tag "${tagName}".`}
+    pageDesc={`Todos los articulos con la etiqueta "${tagName}".`}
   >
     <h1 slot="title" transition:name={tag}>{`Tag:${tag}`}</h1>
     <ul>

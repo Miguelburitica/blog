@@ -8,38 +8,33 @@ const shareLinks = [
   {
     name: "WhatsApp",
     href: "https://wa.me/?text=",
-    linkTitle: `Share this post via WhatsApp`,
+    linkTitle: `Comparte este articulo via WhatsApp`,
   },
   {
     name: "Facebook",
     href: "https://www.facebook.com/sharer.php?u=",
-    linkTitle: `Share this post on Facebook`,
+    linkTitle: `Comparte este articulo on Facebook`,
   },
   {
     name: "X",
     href: "https://x.com/intent/post?url=",
-    linkTitle: `Share this post on X`,
+    linkTitle: `Comparte este articulo on X`,
   },
   {
     name: "Telegram",
     href: "https://t.me/share/url?url=",
-    linkTitle: `Share this post via Telegram`,
-  },
-  {
-    name: "Pinterest",
-    href: "https://pinterest.com/pin/create/button/?url=",
-    linkTitle: `Share this post on Pinterest`,
+    linkTitle: `Comparte este articulo via Telegram`,
   },
   {
     name: "Mail",
     href: "mailto:?subject=See%20this%20post&body=",
-    linkTitle: `Share this post via email`,
+    linkTitle: `Comparte este articulo via email`,
   },
 ] as const;
 ---
 
 <div class={`social-icons`}>
-  <span class="italic">Share this post on:</span>
+  <span class="italic">Comparte este articulo en:</span>
   <div class="text-center">
     {
       shareLinks.map(social => (

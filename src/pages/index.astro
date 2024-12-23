@@ -42,7 +42,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        Repositorio de reviews sobre libros, cursos y temas de estudio para mejorar como ingeniero de software. Porque gastar 4 meses leyendo un libro y no entender nada no es chevere x_x
+        Repositorio de reviews sobre libros, cursos y temas de estudio para mejorar como ingeniero de software. Porque gastar 4 meses leyendo un libro y sentir que no entendiste no es chevere x_x
       </p>
       <p>
         Espero esto sea de ayuda, buena suerte en tu camino :3.
@@ -64,7 +64,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>Featured</h2>
+            <h2>Recomendados</h2>
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card
@@ -83,7 +83,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     {
       recentPosts.length > 0 && (
         <section id="recent-posts">
-          <h2>Recent Posts</h2>
+          <h2>Articulos recientes</h2>
           <ul>
             {recentPosts.map(
               ({ data, slug }, index) =>
